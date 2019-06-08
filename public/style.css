@@ -1,7 +1,8 @@
 body {
-  background: black;
+  background-image: url(burger1.png);
   text-align: center;
-  color: white;
+  color: black;
+  background-size: cover;
 }
 .burgers {
   margin-top: 5rem;

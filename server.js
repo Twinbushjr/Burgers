@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const app = express();
 
-app.use(express.static(__dirname + '/'));
+app.use(express.static('public'));
 
 app.use(bodyParser.urlencoded({
   extended: false
