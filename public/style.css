@@ -4,6 +4,10 @@ body {
   color: black;
   background-size: cover;
 }
+
+input{
+  text-align: center;
+}
 .burgers {
   margin-top: 5rem;
   
